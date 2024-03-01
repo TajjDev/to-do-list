@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(47, 127, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.623);
+}
+main{
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.623);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(47, 127, 255);
+}
+label{
+    font-size: 1em;
+}
+#task{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(47, 127, 255);
+    padding: 0 10px 0 10px;
+    background: rgba(0, 0, 0, 0.623);
+    color: rgb(47, 127, 255);
+}
+#btnsub{
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 0,8em;
+    height: 40px;
+    background-color: rgb(47, 127, 255);
+}
+input{
+    width: 90%;
+}
+.inp{
+    height: 20vh;
+    border: 3px solid rgb(148, 153, 140);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+.taskinput{
+    height: auto;
+    border: 5px solid rgb(47, 127, 255);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    
+
+}
+#theTaskInput{
+    align-self: flex-start;
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+#me{
+    width: 40px;
+}
+#theTaskInput button{
+    color: rgb(252, 252, 252);
+    background: rgb(47, 127, 255);
+    width: 25%;
+    height: 30px;
+    border: none;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 0.8em;
+}
+li{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+#check{
+    width: 2%;
+}

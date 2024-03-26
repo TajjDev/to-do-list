@@ -6,7 +6,7 @@ let taskArray:string[] = []
 function submit() {
     if (taskinput.value !== '') {
         taskArray.push(taskinput.value)
-        taskinput.value == ''
+        taskinput.value == 'ddd'
         displayTask()
     }
 }

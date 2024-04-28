@@ -52,6 +52,7 @@ label{
 }
 input{
     width: 90%;
+    outline:none;
 }
 .inp{
     height: 20vh;
@@ -85,7 +86,7 @@ input{
     width: 40px;
 }
 #theTaskInput button{
-    color: rgb(252, 252, 252);
+    color: #000;
     background: lightpink;
     width: 25%;
     height: 30px;

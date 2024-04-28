@@ -9,7 +9,7 @@ body{
     display: flex;
     position:relative;
     top:0;
-/*     bottom:0; */
+    bottom:0;
     justify-content: center;
     align-items: center;
     color: rgb(47, 127, 255);

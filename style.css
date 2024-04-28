@@ -12,6 +12,9 @@ body{
     color: rgb(47, 127, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: url(./todoBg.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
 }
 main{
     margin-top: 10%;

@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(47, 127, 255);
+    color: lightpink;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: url(./todoBg.png);
      background-repeat: no-repeat;
@@ -26,7 +26,8 @@ main{
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgb(47, 127, 255);
+    lightpink
+    border: 2px solid lightpink;
 }
 label{
     font-size: 1em;
@@ -35,10 +36,10 @@ label{
     width: 40%;
     height: 40px;
     border-radius: 5px;
-    border: 2px solid rgb(47, 127, 255);
+    border: 2px solid lightpink;
     padding: 0 10px 0 10px;
     background: rgba(0, 0, 0, 0.623);
-    color: rgb(47, 127, 255);
+    color: lightpink;
 }
 #btnsub{
     width: 20%;
@@ -47,7 +48,7 @@ label{
     border: 2px solid black;
     font-size: 0,8em;
     height: 40px;
-    background-color: rgb(47, 127, 255);
+    background-color: lightpink;
 }
 input{
     width: 90%;
@@ -64,7 +65,7 @@ input{
 }
 .taskinput{
     height: auto;
-    border: 5px solid rgb(47, 127, 255);
+    border: 5px solid lightpink;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -85,7 +86,7 @@ input{
 }
 #theTaskInput button{
     color: rgb(252, 252, 252);
-    background: rgb(47, 127, 255);
+    background: lightpink;
     width: 25%;
     height: 30px;
     border: none;
